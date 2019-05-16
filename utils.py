@@ -14,7 +14,6 @@ def range_fn(*args):
     else:
         return xrange(*args)
 
-
 def is_string_io(instance):
     if running_python_3:
        return isinstance(instance, BytesIO)
